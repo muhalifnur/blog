@@ -14,7 +14,7 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="index.html" class="font-bold text-lg text-black block py-6">Alif Nur</a>
+            <a href="#home" class="font-bold text-lg text-black dark:text-white block py-6">Alif Nur</a>
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -24,36 +24,49 @@
             </button>
             <nav
               id="nav-menu"
-              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-300 lg:dark:bg-transparent"
             >
               <ul class="block lg:flex">
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="text-base font-semibold text-dark py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
+                    href="#home"
+                    class="text-base font-semibold text-dark dark:text-white py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
                     >Home</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="text-base font-semibold text-dark py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
+                    href="#about"
+                    class="text-base font-semibold text-dark dark:text-white py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
                     >About</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="text-base font-semibold text-dark py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
+                    href="#blog"
+                    class="text-base font-semibold text-dark dark:text-white py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
                     >Blog
                   </a>
                 </li>
                 <li class="group">
                   <a
                     href="project.html"
-                    class="text-base font-semibold text-dark py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
+                    class="text-base font-semibold text-dark dark:text-white py-2 mx-4 inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-primary hover:before:w-full hover:before:opacity-100"
                     >Project</a
                   >
+                </li>
+                
+                <li class="mt-3 lg:mt-0 flex items-center pl-4 ">
+                  <div class="flex">
+                    <span class="mr-2 text-sm font-semibold text-dark dark:text-white">Light</span>
+                    <input type="checkbox" class="hidden" id="dark-toggle">
+                    <label for="dark-toggle">
+                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                        <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                      </div>
+                    </label>
+                    <span class="ml-2 text-sm font-semibold text-dark dark:text-white">Dark</span>
+                  </div>
                 </li>
               </ul>
             </nav>
@@ -65,15 +78,15 @@
     <section class="mt-52 mb-52">
       <div class="container">
         <div class="px-4 mb-10">
-          <p class="text-dark text-xs lg:text-sm mb-3 text-center">Juni-Agustus, 2022</p>
-          <h1 class="font-bold text-gray-700 text-xl text-center mb-6 uppercase lg:text-5xl">Sensor PZEM-004T Untuk Monitoring Daya</h1>
+          <p class="text-dark dark:text-white text-xs lg:text-sm mb-3 text-center">Juni-Agustus, 2022</p>
+          <h1 class="font-bold text-gray-700 dark:text-white text-xl text-center mb-6 uppercase lg:text-5xl">Sensor PZEM-004T Untuk Monitoring Daya</h1>
           <img src="dist/img/projectPZEM004T/PZEM-004T-V2.0-700x700.jpg" alt="PZEM-004T" class="w-1/3 mb-10 mx-auto" />
-          <p class="text-justify mx-9 text-sm lg:mx-32 lg:text-base mb-10">
+          <p class="text-justify mx-9 text-sm lg:mx-32 lg:text-base mb-10 text-black dark:text-white">
             Sensor PZEM-004T adalah sensor yang dapat mengukur Arus, Tegangan, Power dan Energy dari listrik AC. Sensor ini mengeluarkan output dengan komunikasi serial. Jika kita ingin menghubungkan dengan Arduino maka komunikasi yang di gunakan adalah komunikasi serial.
-          <h2 class="font-bold text-gray-700 text-lg lg:text-xl mb-4 ml-20 text-justify">Spesifikasi PZEM-004T</h2>
+          <h2 class="font-bold text-gray-700 dark:text-white text-lg lg:text-xl mb-4 ml-20 text-justify">Spesifikasi PZEM-004T</h2>
           <ol class="list-decimal ml-10 lg:ml-32 mb-10">
-            <li class="font-bold">Voltage</li>
-              <ul class="list-disc">
+            <li class="font-bold dark:text-white">Voltage</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:80-260V
                 </li>
@@ -84,8 +97,8 @@
                   Akurasi Pengukuran:0.5%
                 </li>
               </ul>
-            <li class="font-bold">Current</li>
-              <ul class="list-disc">
+            <li class="font-bold dark:text-white">Current</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:0-100A
                 </li>
@@ -96,8 +109,8 @@
                   Akurasi Pengukuran:0.5%
                 </li>
               </ul>
-            <li class="font-bold">Active Power</li>
-              <ul class="list-disc">
+            <li class="font-bold dark:text-white">Active Power</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:0-23kW
                 </li>
@@ -108,8 +121,8 @@
                   Akurasi Pengukuran:0.5%
                 </li>
               </ul>
-              <li class="font-bold">Power Factor</li>
-              <ul class="list-disc">
+              <li class="font-bold dark:text-white">Power Factor</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:0.00-1.00
                 </li>
@@ -120,8 +133,8 @@
                   Akurasi Pengukuran:1%
                 </li>
               </ul>
-              <li class="font-bold">Frequency</li>
-              <ul class="list-disc">
+              <li class="font-bold dark:text-white">Frequency</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:45Hz-65Hz
                 </li>
@@ -132,8 +145,8 @@
                   Akurasi Pengukuran:0.5%
                 </li>
               </ul>
-              <li class="font-bold">Active Energy</li>
-              <ul class="list-disc">
+              <li class="font-bold dark:text-white">Active Energy</li>
+              <ul class="list-disc dark:text-white">
                 <li>
                   Range Pengukuran:0-9999.99kWh
                 </li>
@@ -145,12 +158,12 @@
                 </li>
               </ul>
           </ol>
-          <h2 class="font-bold text-gray-700 text-lg lg:text-xl mb-4 text-center">Diagram Blok</h2>
+          <h2 class="font-bold text-gray-700 dark:text-white text-lg lg:text-xl mb-4 text-center">Diagram Blok</h2>
           <img src="dist/img/projectPZEM004T/diagramBlok.png" alt="Diagram Blok PZEM-004T" class="w-1/2 mb-10 mx-auto" />
-          <h2 class="font-bold text-gray-700 text-lg lg:text-xl mb-4 text-center">Wiring Diagram</h2>
+          <h2 class="font-bold text-gray-700 dark:text-white text-lg lg:text-xl mb-4 text-center">Wiring Diagram</h2>
           <img src="dist/img/projectPZEM004T/wiring1.png" alt="Diagram Blok PZEM-004T" class="w-1/2 mb-10 mx-auto" />
           <img src="dist/img/projectPZEM004T/wiring2.png" alt="Diagram Blok PZEM-004T" class="w-1/2 mb-10 mx-auto" />
-           <h3 class="font-bold text-gray-700 text-xl lg:text-2xl mb-6 text-center">Program NodeMCU ESP8266</h3>
+           <h3 class="font-bold text-gray-700 dark:text-white text-xl lg:text-2xl mb-6 text-center">Program NodeMCU ESP8266</h3>
           <div class="px-8 mx-auto ">
             <div class=" bg-white w-full lg:w-1/2 h-96 rounded-xl shadow-lg overflow-scroll mb-10 mx-auto">
               <pre>
@@ -251,9 +264,9 @@
           </div>
            
               <!-- Devider Start -->
-    <div class="border-t border-gray-300 w-1/2 mx-auto mt-20 mb-20"> </div>
+    <div class="border-t border-gray-300 w-1/2 mx-auto mt-20 mb-20 dark:hidden"> </div>
     <!-- Devider End -->
-        <h1 class="font-bold text-gray-700 text-3xl lg:text-5xl mb-10 text-center">Hasil Project</h1>
+        <h1 class="font-bold text-gray-700 text-3xl lg:text-5xl mb-10 text-center dark:text-white">Hasil Project</h1>
           
                   <iframe src="https://youtube.com/embed/VYXBxv_WUDQ" lg:width="680" lg:height="480" allowfullscreen class="mx-auto"></iframe>
     </section>

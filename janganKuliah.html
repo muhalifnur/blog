@@ -14,7 +14,7 @@
       <div class="container">
         <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a href="index.html" class="block py-6 text-lg font-bold text-black">Alif Nur</a>
+            <a href="#home" class="block py-6 text-lg font-bold text-black dark:text-white">Alif Nur</a>
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
@@ -24,36 +24,49 @@
             </button>
             <nav
               id="nav-menu"
-              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-300 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
             >
               <ul class="block lg:flex">
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100"
+                    href="#home"
+                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100 dark:text-white"
                     >Home</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100"
+                    href="#about"
+                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100 dark:text-white"
                     >About</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="index.html"
-                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100"
+                    href="#blog"
+                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100 dark:text-white"
                     >Blog
                   </a>
                 </li>
                 <li class="group">
                   <a
                     href="project.html"
-                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100"
+                    class="relative mx-4 inline-block cursor-pointer py-2 text-base font-semibold text-dark transition-all duration-500 before:absolute before:-bottom-0.5 before:left-0 before:h-1 before:w-0 before:rounded-full before:bg-primary before:opacity-0 before:transition-all before:duration-500 before:content-[''] hover:before:w-full hover:before:opacity-100 dark:text-white"
                     >Project</a
                   >
+                </li>
+
+                <li class="mt-3 flex items-center pl-4 lg:mt-0">
+                  <div class="flex">
+                    <span class="mr-2 text-sm font-semibold text-dark dark:text-white">Light</span>
+                    <input type="checkbox" class="hidden" id="dark-toggle" />
+                    <label for="dark-toggle">
+                      <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                        <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                      </div>
+                    </label>
+                    <span class="ml-2 text-sm font-semibold text-dark dark:text-white">Dark</span>
+                  </div>
                 </li>
               </ul>
             </nav>
@@ -65,18 +78,19 @@
     <section class="mt-52 mb-52">
       <div class="container">
         <div class="mb-10 px-4">
-          <p class="mb-3 text-center text-xs text-dark lg:text-sm">November 10, 2022</p>
-          <h2 class="mb-6 text-center text-xl font-bold uppercase text-gray-700 lg:text-5xl">Jangan kuliah</h2>
+          <p class="mb-3 text-center text-xs text-dark dark:text-white lg:text-sm">November 10, 2022</p>
+          <h2 class="mb-6 text-center text-xl font-bold uppercase text-gray-700 dark:text-white lg:text-5xl">Jangan kuliah</h2>
           <img src="dist/img/janganKuliah.jpg" alt="janganKuliah" class="mb-10" />
-          <p class="mx-9 text-justify text-sm lg:mx-32 lg:text-base">
+          <p class="mx-9 text-justify text-sm text-black dark:text-white lg:mx-32 lg:text-base">
             Kita sering membuat asumsi pribadi terhadap seseorang, berdasarkan apa yang kita lihat, masih bagus jika asumsi itu berdasarkan apa yang kita lihat, bagaimana jika asumsi itu berdasarkan
             dengan asumsi orang lain, yang mana asumsi fihak pertama saja belum tentu valid, tapi seperti itulah kebiasaan kita,
-            <span class="font-bold text-black"> senang untuk menyimpulkan keadaan. </span> <br /><br />
+            <span class="font-bold text-black dark:text-white"> senang untuk menyimpulkan keadaan. </span> <br /><br />
             Saya belajar pemrograman web bukan dari bangku perkuliahan, tapi keadaan kuliah yang memaksa saya untuk belajar pemrograman web, jadi jika ada yang berniat tidak berkuliah, dengan asumsi
-            halahhh, orang yang kuliah saja belum tentu dapat kerja, atau kita bisa belajar autodidak, tidak perlu kuliah, <span class="font-bold text-black"> itu benar.</span> hahahha <br /><br />
-            Tapi, dengan kita kuliah <span class="font-bold text-black"> membuka peluang yang lebih banyak,</span> dengan kuliah sistem belajarmu akan terstruktur dan terarah, ada kurikulum yang telah
-            diatur, dan setelah berkuliah pun, akan ada bukti berupa ijazah, walaupun tidak bisa dijadikan indikator kompetensi seseorang, tapi setidaknya ada modal untuk membuka banyak kesempatan.
+            halahhh, orang yang kuliah saja belum tentu dapat kerja, atau kita bisa belajar autodidak, tidak perlu kuliah, <span class="font-bold text-black dark:text-white"> itu benar.</span> hahahha
             <br /><br />
+            Tapi, dengan kita kuliah <span class="font-bold text-black dark:text-white"> membuka peluang yang lebih banyak,</span> dengan kuliah sistem belajarmu akan terstruktur dan terarah, ada
+            kurikulum yang telah diatur, dan setelah berkuliah pun, akan ada bukti berupa ijazah, walaupun tidak bisa dijadikan indikator kompetensi seseorang, tapi setidaknya ada modal untuk membuka
+            banyak kesempatan. <br /><br />
             Tapi kuliah jika tidak pada jurusan yang disukai, tentu saja akan sangat tidak menyenangkan, dan tidak semua orang punya pilihan yang sama, mungkin kita tahu, ini tidak sesuai dengan
             keinginan kita, tapi tidak ada pilihan lain selain ditempat itu, alasannya? banyak hal, bisa karena permintaan orang tua, ekonomi, lingkungan sekitar, yang mana memaksa kita mau tidak mau
             harus tetap melanjutkan itu.
@@ -86,7 +100,7 @@
             <br /><br />
             jika punya pilihan untuk pindah jurusan, maka lakukanlah, ikuti keinginanmu, cari kebahagiaanmu, dan syukuri hal itu, karena tidak semua punya pilihan yang sama.
             <br /><br />
-            Jangan mudah terdistraksi dengan keadaan sekitar, <span class="font-bold text-dark">just focus on yourself.</span>
+            Jangan mudah terdistraksi dengan keadaan sekitar, <span class="font-bold text-dark dark:text-white">just focus on yourself.</span>
           </p>
         </div>
       </div>
