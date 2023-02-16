@@ -222,6 +222,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: all 4s ease;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -269,6 +270,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 [type="search"] {
   -webkit-appearance: textfield;
+  appearance: all 4s ease;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
